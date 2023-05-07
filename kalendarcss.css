@@ -1,0 +1,52 @@
+#kalendar {
+    border: 4px solid darkblue;
+    border-collapse: collapse;
+    height: 500px;
+    width: 500px;
+    
+}
+
+#kalendar thead  tr th {
+    font-size: 10pt;
+    background-color: #57A;
+    color: #ffffff;
+}
+
+#kalendar tbody tr td {
+    border: 1px dashed #57A;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 9pt;
+    text-align: right;
+    vertical-align: top;
+}
+
+.druga-smena {
+    background-color: red;
+    color: fff;
+}
+.treca-smena {
+    background-color: blue;
+    color:fff
+}
+
+.slobodni-dani {
+    background-color: green;
+    color: fff;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.btn:hover {
+    background-color: blue;
+}
